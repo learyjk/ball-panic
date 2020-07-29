@@ -1,0 +1,410 @@
+fileFormatVersion: 2
+guid: 87a215c85586c42d7a8c9098af3d79d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8663966308584251865
+    second: Broken Brick 1
+  - first:
+      213: 4108273614207903910
+    second: Broken Brick 2
+  - first:
+      213: -113839541709908176
+    second: Broken Brick 3
+  - first:
+      213: -7523445304338042922
+    second: Broken Brick 4
+  - first:
+      213: -9176512368542680652
+    second: Game stuff2_4
+  - first:
+      213: 5164208821239332937
+    second: Game stuff2_5
+  - first:
+      213: 8262350531094699955
+    second: Game stuff2_6
+  - first:
+      213: -7339884356404484886
+    second: Game stuff2_7
+  - first:
+      213: -7899062784028070549
+    second: Game stuff2_8
+  - first:
+      213: -5125213901117782430
+    second: Game stuff2_9
+  - first:
+      213: -7746604767177603352
+    second: Game stuff2_10
+  - first:
+      213: -3748198468639719040
+    second: Game stuff2_11
+  - first:
+      213: -8942106869404569958
+    second: Game stuff2_12
+  - first:
+      213: -6550110252442927270
+    second: Game stuff2_13
+  - first:
+      213: -3519990740618736162
+    second: Game stuff2_14
+  - first:
+      213: -6491581068105588097
+    second: Game stuff2_15
+  - first:
+      213: 4492469932295941169
+    second: Game stuff2_16
+  - first:
+      213: 3000288167953053945
+    second: Game stuff2_17
+  - first:
+      213: -2848333022989233880
+    second: Game stuff2_18
+  - first:
+      213: 8549342880382700444
+    second: Game stuff2_19
+  - first:
+      213: -8660904490360835380
+    second: Game stuff2_20
+  - first:
+      213: 2891447273805975671
+    second: Game stuff2_21
+  - first:
+      213: -4026935587353117435
+    second: Game stuff2_22
+  - first:
+      213: 308812551896476828
+    second: Game stuff2_23
+  - first:
+      213: 8824008935875866604
+    second: Game stuff2_24
+  - first:
+      213: 4142489747445551186
+    second: Game stuff2_25
+  - first:
+      213: -7380991900941718680
+    second: Game stuff2_26
+  - first:
+      213: -7580713280934880199
+    second: Game stuff2_27
+  - first:
+      213: 3578082669307186442
+    second: Game stuff2_28
+  - first:
+      213: -6127964973950918607
+    second: Game stuff2_29
+  - first:
+      213: 2634721878138537801
+    second: Game stuff2_30
+  - first:
+      213: -5862001496022897421
+    second: Game stuff2_31
+  - first:
+      213: 29700143201726252
+    second: Game stuff2_32
+  - first:
+      213: 8056382761085955397
+    second: UI Brick
+  - first:
+      213: 2133128295485272839
+    second: Gold Ball
+  - first:
+      213: -6142447699288250674
+    second: Ball
+  - first:
+      213: 7620726139048119142
+    second: Shield
+  - first:
+      213: -6510881769530039431
+    second: Game stuff2_37
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Broken Brick 1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 455
+        width: 208
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1ed1934779c3870800000000000000
+      internalID: 8663966308584251865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken Brick 2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 453
+        width: 208
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8e8f6e515830930800000000000000
+      internalID: 4108273614207903910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Brick
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 275
+        width: 151
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54deb19cf650ecf60800000000000000
+      internalID: 8056382761085955397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Ball
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 224
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703fbb802e46a9d10800000000000000
+      internalID: 2133128295485272839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 8
+        width: 226
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec622809c54a1caa0800000000000000
+      internalID: -6142447699288250674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 10
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b4f701c0242c960800000000000000
+      internalID: 7620726139048119142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken Brick 3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 387
+        width: 210
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037dcfa3a8f8b6ef0800000000000000
+      internalID: -113839541709908176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken Brick 4
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 388
+        width: 189
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfa9db4b5a579790800000000000000
+      internalID: -7523445304338042922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
