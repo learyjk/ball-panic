@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3618618873186378701}
   - component: {fileID: 3180565432209395514}
   m_Layer: 0
-  m_Name: Unbreakable Brick Vertical (1)
+  m_Name: Unbreakable Brick Vertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2134039825
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -7316022452890669399, guid: d3d6d597d71b44b25b02f73c7f81ef4d,
     type: 3}
@@ -96,9 +96,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4533082535713890117}
   - component: {fileID: 3707422496918006939}
-  m_Layer: 0
-  m_Name: Left Collider
-  m_TagString: Untagged
+  m_Layer: 13
+  m_Name: Bottom Collider
+  m_TagString: UnbreakableBrickBottomVertical
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,9 +153,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2184828454736122671}
   - component: {fileID: 6473024541406571789}
-  m_Layer: 0
-  m_Name: Bottom Collider
-  m_TagString: Untagged
+  m_Layer: 13
+  m_Name: Right Collider
+  m_TagString: UnbreakableBrickRightVertical
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -210,9 +210,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7786117428103195017}
   - component: {fileID: 8463744914202143202}
-  m_Layer: 0
-  m_Name: Top Collider
-  m_TagString: Untagged
+  m_Layer: 13
+  m_Name: Left Collider
+  m_TagString: UnbreakableBrickLeftVertical
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -267,9 +267,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7678598821831245827}
   - component: {fileID: 8244028972345285167}
-  m_Layer: 0
-  m_Name: Right Collider
-  m_TagString: Untagged
+  m_Layer: 13
+  m_Name: Top Collider
+  m_TagString: UnbreakableBrickTopVertical
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

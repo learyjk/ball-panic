@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5072180351591891470}
   - component: {fileID: 9059355020534885656}
   - component: {fileID: 727938717288190461}
+  - component: {fileID: 4498489637029692299}
   m_Layer: 0
   m_Name: Joker
   m_TagString: Untagged
@@ -151,3 +152,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4498489637029692299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5072180351591891697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01083a1b0a51446daaad8b534805e0da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myRigidbody: {fileID: 727938717288190461}
+  animator: {fileID: 5072180351591891470}
+  arrows: []
+  clip: {fileID: 7400000, guid: 419b2b2a08e8e4851999a2ff9ebe4f77, type: 2}

@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 1036105150565051643}
   - component: {fileID: 9027224905270527731}
   - component: {fileID: 1386493253010714860}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Item 31
-  m_TagString: Untagged
+  m_TagString: InGameCollectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69,8 +69,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1411855549
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 4281689703651409523, guid: d3d6d597d71b44b25b02f73c7f81ef4d,
     type: 3}

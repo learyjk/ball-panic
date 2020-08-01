@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6057477793542990653}
   - component: {fileID: 705083345507483683}
   - component: {fileID: 6069008997870912463}
+  - component: {fileID: 669423472025662930}
   m_Layer: 0
   m_Name: Homosapien
   m_TagString: Untagged
@@ -151,3 +152,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &669423472025662930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6057477793542990654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01083a1b0a51446daaad8b534805e0da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myRigidbody: {fileID: 6069008997870912463}
+  animator: {fileID: 6057477793542990653}
+  arrows: []
+  clip: {fileID: 7400000, guid: 05892204f0a9b4eb7bd507cdfdb8604e, type: 2}

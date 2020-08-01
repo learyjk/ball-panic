@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1582631328713538638}
   - component: {fileID: 941765343264155234}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right Collider
-  m_TagString: Untagged
+  m_TagString: UnbreakableBrickRight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67,9 +67,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1401928662020937156}
   - component: {fileID: 724020800455857583}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Top Collider
-  m_TagString: Untagged
+  m_TagString: UnbreakableBrickTop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,9 +124,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7001813034315657058}
   - component: {fileID: 2787081358966477120}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Bottom Collider
-  m_TagString: Untagged
+  m_TagString: UnbreakableBrickBottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -180,9 +180,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4724769347902579464}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left Collider
-  m_TagString: Untagged
+  m_TagString: UnbreakableBrickLeft
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -272,8 +272,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2134039825
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -7316022452890669399, guid: d3d6d597d71b44b25b02f73c7f81ef4d,
     type: 3}

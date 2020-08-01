@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 631330838408028377}
   - component: {fileID: 6393694767405944224}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Top Collider
-  m_TagString: Untagged
+  m_TagString: BrokenBrickTop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67,9 +67,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1617542244276164494}
   - component: {fileID: 8050108535929130768}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Bottom Collider
-  m_TagString: Untagged
+  m_TagString: BrokenBrickBottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 2659544746621358588}
   - component: {fileID: 2659544746621358579}
   m_Layer: 0
-  m_Name: Breakable Brick
+  m_Name: Breakable Brick Horizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -306,9 +306,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8952480441556880724}
   - component: {fileID: 2815355326805406649}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right Collider
-  m_TagString: Untagged
+  m_TagString: BrokenBrickRight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -363,9 +363,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6311432513824807709}
   - component: {fileID: 2336415417310396742}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left Collider
-  m_TagString: Untagged
+  m_TagString: BrokenBrickLeft
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

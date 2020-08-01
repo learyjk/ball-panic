@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 4531946316924347372}
   - component: {fileID: 5718606910676269592}
   - component: {fileID: 5414822993647513433}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sand Watch
-  m_TagString: Untagged
+  m_TagString: SandWatch
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69,8 +69,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1411855549
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 1053282428885292558, guid: d3d6d597d71b44b25b02f73c7f81ef4d,
     type: 3}

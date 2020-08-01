@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 3387743423790705748}
   - component: {fileID: 301938015392435801}
   - component: {fileID: 5035957018636993438}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Double Arrows Collectable
-  m_TagString: Untagged
+  m_TagString: DoubleArrow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69,8 +69,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1411855549
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -7534759105849630896, guid: d3d6d597d71b44b25b02f73c7f81ef4d,
     type: 3}

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8836707063960166270}
   - component: {fileID: 7119489235643875671}
   - component: {fileID: 4861270075783392337}
+  - component: {fileID: -2407321302541478296}
   m_Layer: 0
   m_Name: Spartan
   m_TagString: Untagged
@@ -151,3 +152,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-2407321302541478296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8836707063960166269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01083a1b0a51446daaad8b534805e0da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myRigidbody: {fileID: 4861270075783392337}
+  animator: {fileID: 8836707063960166270}
+  arrows: []
+  clip: {fileID: 7400000, guid: 15ac6ddc04ea34c4ba1c4ace72375319, type: 2}
