@@ -33,11 +33,27 @@ public class ArrowScript : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D target) {
         if (target.tag == "LargestBall" || target.tag == "LargeBall" || target.tag == "MediumBall" || target.tag == "SmallBall" || target.tag == "SmallestBall")
         {
+            if(gameObject.tag == "FirstArrow" || gameObject.tag == "FirstStickyArrow")
+            {
+                PlayerScript.instance.PlayerShootOnce(true);
+            }
+            else if (gameObject.tag == "SecondArrow" || gameObject.tag == "SecondStickyArrow")
+            {
+                PlayerScript.instance.PlayerShootTwice(true);
+            }
             gameObject.SetActive(false);
         }
         
         if (target.tag == "TopBrick")
         {
+            if(gameObject.tag == "FirstArrow" || gameObject.tag == "FirstStickyArrow")
+            {
+                PlayerScript.instance.PlayerShootOnce(true);
+            }
+            else if (gameObject.tag == "SecondArrow" || gameObject.tag == "SecondStickyArrow")
+            {
+                PlayerScript.instance.PlayerShootTwice(true);
+            }
             gameObject.SetActive(false);
         }
     }

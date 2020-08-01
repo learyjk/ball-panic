@@ -166,5 +166,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myRigidbody: {fileID: 727938717288190461}
   animator: {fileID: 5072180351591891470}
-  arrows: []
+  arrows:
+  - {fileID: 840397877897714973, guid: 8b576bdcc9f394bcda5cde39bac0e25c, type: 3}
+  - {fileID: 3045887085439261738, guid: b5e6cf98dd95c4a4481b08dff0672dc9, type: 3}
+  - {fileID: 2561226069433379502, guid: fe9c78af23d5743fb8874d76c4cb5183, type: 3}
+  - {fileID: 8548719455737968019, guid: 241815e28e10c44449d983796e50b0f5, type: 3}
   clip: {fileID: 7400000, guid: 419b2b2a08e8e4851999a2ff9ebe4f77, type: 2}
+  shootClip: {fileID: 0}
