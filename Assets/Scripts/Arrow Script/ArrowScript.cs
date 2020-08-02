@@ -7,6 +7,9 @@ public class ArrowScript : MonoBehaviour
     private float arrowSpeed = 4.0f;
     private bool canShootStickyArrow;
 
+    [SerializeField]
+    private AudioClip clip;
+
     private void Awake() {
         canShootStickyArrow = true;
     }
@@ -20,7 +23,24 @@ public class ArrowScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ShootArrow();
+        if (this.gameObject.tag == "FirstStickyArrow")
+        {
+            if (canShootStickyArrow)
+            {
+                ShootArrow();
+            }
+        }
+        else if (this.gameObject.tag == "SecondStickyArrow")
+        {
+            if (canShootStickyArrow)
+            {
+                ShootArrow();
+            }
+        }
+        else
+        {
+            ShootArrow();
+        }
     }
 
     void ShootArrow()
@@ -28,6 +48,22 @@ public class ArrowScript : MonoBehaviour
         Vector3 temp = transform.position;
         temp.y += arrowSpeed * Time.unscaledDeltaTime;
         transform.position = temp;
+    }
+
+    IEnumerator ResetStickyArrow()
+    {
+        yield return new WaitForSeconds(2.5f);
+
+        if (this.gameObject.tag == "FirstStickyArrow")
+        {
+            PlayerScript.instance.PlayerShootOnce(true);
+            this.gameObject.SetActive(false);
+        }
+        else if (this.gameObject.tag == "SecondStickyArrow")
+        {
+            PlayerScript.instance.PlayerShootTwice(true);
+            this.gameObject.SetActive(false);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D target) {
@@ -43,18 +79,66 @@ public class ArrowScript : MonoBehaviour
             }
             gameObject.SetActive(false);
         }
-        
-        if (target.tag == "TopBrick")
+
+
+        if (target.tag == "TopBrick" || target.tag == "UnbreakableBrickTop" || target.tag == "UnbreakableBrickBottom" || target.tag == "UnbreakableBrickLeft" || target.tag == "UnbreakableBrickRight" || target.tag == "UnbreakableBrickBottomVertical")
         {
-            if(gameObject.tag == "FirstArrow" || gameObject.tag == "FirstStickyArrow")
+             if (this.gameObject.tag == "FirstArrow")
             {
                 PlayerScript.instance.PlayerShootOnce(true);
+                this.gameObject.SetActive(false);
             }
-            else if (gameObject.tag == "SecondArrow" || gameObject.tag == "SecondStickyArrow")
+            else if (this.gameObject.tag == "SecondArrow")
             {
                 PlayerScript.instance.PlayerShootTwice(true);
+                this.gameObject.SetActive(false);
             }
-            gameObject.SetActive(false);
+            if (this.gameObject.tag == "FirstStickyArrow")
+            {
+                canShootStickyArrow = false;
+                Vector3 targetPos = target.transform.position;
+                Vector3 temp = transform.position;
+
+                if (target.tag == "TopBrick")
+                {
+                    targetPos.y -= 0.989f;
+                }
+                else if (target.tag == "UnbreakableBrickTop" || target.tag == "UnbreakableBrickBottom" || target.tag == "UnbreakableBrickLeft" || target.tag == "UnbreakableBrickRight")
+                {
+                    targetPos.y -= 0.75f;
+                }
+                else if (target.tag == "UnbreakableBrickBottomVertical")
+                {
+                    targetPos.y -= 0.97f;
+                }
+
+                temp.y = targetPos.y;
+                transform.position = temp;
+                AudioSource.PlayClipAtPoint(clip, transform.position);
+                StartCoroutine(ResetStickyArrow());
+            }
+            else if (this.gameObject.tag == "SecondStickyArrow")
+            {
+                canShootStickyArrow = false;
+                Vector3 targetPos = target.transform.position;
+                Vector3 temp = transform.position;
+                if (target.tag == "TopBrick")
+                {
+                    targetPos.y -= 0.989f;
+                }
+                else if (target.tag == "UnbreakableBrickTop" || target.tag == "UnbreakableBrickBottom" || target.tag == "UnbreakableBrickLeft" || target.tag == "UnbreakableBrickRight")
+                {
+                    targetPos.y -= 0.75f;
+                }
+                else if (target.tag == "UnbreakableBrickBottomVertical")
+                {
+                    targetPos.y -= 0.97f;
+                }
+                temp.y = targetPos.y;
+                transform.position = temp;
+                AudioSource.PlayClipAtPoint(clip, transform.position);
+                StartCoroutine(ResetStickyArrow());
+            }
         }
     }
 }

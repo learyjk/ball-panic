@@ -80,13 +80,13 @@ public class PlayerScript : MonoBehaviour
             {
                 shootOnce = false;
                 StartCoroutine(PlayTheShootAnimation());
-                Instantiate(arrows[0], new Vector3(transform.position.x, height, 0), Quaternion.identity);
+                Instantiate(arrows[2], new Vector3(transform.position.x, height, 0), Quaternion.identity);
             }
             else if (shootTwice)
             {
                 shootTwice = false;
                 StartCoroutine(PlayTheShootAnimation());
-                Instantiate(arrows[1], new Vector3(transform.position.x, height, 0), Quaternion.identity);
+                Instantiate(arrows[3], new Vector3(transform.position.x, height, 0), Quaternion.identity);
             }
         }
     }
