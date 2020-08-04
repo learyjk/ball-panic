@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
@@ -130,5 +131,6 @@ public class MainMenuController : MonoBehaviour
     public void PlayButton()
     {
         MusicController.instance.PlayClickClip();
+        SceneManager.LoadScene("PlayerMenu");
     }
 }
