@@ -42,10 +42,12 @@ public class MainMenuController : MonoBehaviour
 
         if (GameController.instance.isMusicOn)
         {
+            MusicController.instance.PlayBgMusic();
             musicButton.image.sprite = musicBtnSprites[1];
         }
         else
         {
+            MusicController.instance.StopBgMusic();
             musicButton.image.sprite = musicBtnSprites[0];
         }
 
@@ -92,12 +94,14 @@ public class MainMenuController : MonoBehaviour
         if(GameController.instance.isMusicOn)
         {
             musicButton.image.sprite = musicBtnSprites[0];
+            MusicController.instance.StopBgMusic();
             GameController.instance.isMusicOn = false;
             GameController.instance.Save();
         }
         else
         {
             musicButton.image.sprite = musicBtnSprites[1];
+            MusicController.instance.PlayBgMusic();
             GameController.instance.isMusicOn = true;
             GameController.instance.Save();
         }
@@ -121,5 +125,10 @@ public class MainMenuController : MonoBehaviour
         }
 
         infoImage.sprite = infoSprites[infoIndex];
+    }
+
+    public void PlayButton()
+    {
+        MusicController.instance.PlayClickClip();
     }
 }

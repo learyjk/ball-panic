@@ -1546,7 +1546,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1284144063}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 26076435}
+        m_MethodName: PlayButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1284144063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2601,3 +2612,72 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2143115380}
   m_CullTransparentMesh: 0
+--- !u!1001 &5477118534448098219
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4595592422260165281, guid: d89e77d8e3fce47a89ae85dcd8e0a769,
+        type: 3}
+      propertyPath: m_Name
+      value: MusicController
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854884122101802457, guid: d89e77d8e3fce47a89ae85dcd8e0a769,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.82894385
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854884122101802457, guid: d89e77d8e3fce47a89ae85dcd8e0a769,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.11263417
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854884122101802457, guid: d89e77d8e3fce47a89ae85dcd8e0a769,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 589.05347
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854884122101802457, guid: d89e77d8e3fce47a89ae85dcd8e0a769,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854884122101802457, guid: d89e77d8e3fce47a89ae85dcd8e0a769,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854884122101802457, guid: d89e77d8e3fce47a89ae85dcd8e0a769,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854884122101802457, guid: d89e77d8e3fce47a89ae85dcd8e0a769,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854884122101802457, guid: d89e77d8e3fce47a89ae85dcd8e0a769,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854884122101802457, guid: d89e77d8e3fce47a89ae85dcd8e0a769,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854884122101802457, guid: d89e77d8e3fce47a89ae85dcd8e0a769,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854884122101802457, guid: d89e77d8e3fce47a89ae85dcd8e0a769,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d89e77d8e3fce47a89ae85dcd8e0a769, type: 3}
